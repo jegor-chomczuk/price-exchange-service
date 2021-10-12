@@ -1,16 +1,15 @@
 package com.lab604.priceexchangeservice.dto;
 
-import lombok.*;
-
-import java.util.Currency;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Setter
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
 public class PriceExchangeDTO {
-    @NonNull
     private Double priceInUSD;
-    @NonNull
-    private Currency currency;
+    private String currency;
 }

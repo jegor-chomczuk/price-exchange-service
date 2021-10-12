@@ -1,7 +1,8 @@
 package com.lab604.priceexchangeservice.interfaces;
 
 import com.lab604.priceexchangeservice.dto.PriceExchangeDTO;
+import com.lab604.priceexchangeservice.dto.PriceResultDTO;
 
 public interface IPriceExchangeService {
-    Double exchange(PriceExchangeDTO priceExchangeDTO);
+    PriceResultDTO exchange(PriceExchangeDTO priceExchangeDTO);
 }
